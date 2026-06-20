@@ -1,0 +1,6 @@
+# platform/config-server/src/main/resources/config/auth-service.yml
+
+security:
+  jwt:
+    secret-key: 9a72df552d3a66fcf9b46e3d55167a84e68e4c7328905a96d2ff86926b42b291
+    expiration-time: 86400000 # 24 Hours in milliseconds
